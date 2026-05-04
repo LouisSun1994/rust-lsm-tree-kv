@@ -1,0 +1,19 @@
+[package]
+name = "lsm_kv"
+version = "0.1.0"
+edition = "2021"
+description = "A learning-oriented LSM-Tree Key-Value storage engine written in Rust"
+
+[dependencies]
+crc32fast = "1.4"
+
+[dev-dependencies]
+tempfile = "3.10"
+
+[[bin]]
+name = "lsm_kv"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+lto = true

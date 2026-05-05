@@ -18,6 +18,7 @@
 | [03](03-wal-fsync-tradeoff.md) | WAL 是同步 append？瓶頸在 fsync 頻率？ | latency / throughput / durability 三角權衡 |
 | [04](04-no-wal-small-memtable.md) | 取消 WAL + 縮小 MemTable 行得通嗎？ | Tiered vs Leveled、寫入放大反彈、RUM Conjecture |
 | [05](05-query-cost-and-bloom-filter.md) | LSM 查詢複雜度為何可控？Bloom Filter 為何可信？ | log N、Bloom 單向誤差、4 個救命手段、點查 vs 範圍查 |
+| [06](06-why-rust-not-c-cpp.md) | 為什麼推薦 Rust 而不是 C/C++？ | 編譯期回饋、memory safety、Cargo、職涯差異化、寫 Rust 讀 C |
 
 ## 怎麼回顧
 

@@ -39,6 +39,9 @@ cargo run --release -- ./data bench 10000
 | 2 | [docs/02-rust-quickstart.md](docs/02-rust-quickstart.md) | Rust 入門：你會在這個專案看到的語法與概念 |
 | 3 | [docs/03-code-walkthrough.md](docs/03-code-walkthrough.md) | 逐檔程式碼導讀，配合中文註解 |
 | 4 | [docs/04-next-steps.md](docs/04-next-steps.md) | 下一步該挑戰什麼（Compaction、Bloom Filter、並發…）|
+| 5 | [docs/05-cargo-cheatsheet.md](docs/05-cargo-cheatsheet.md) | Cargo 速查表：build / test / dep / 工作流程 |
+
+另外有 [qa/](qa/) 資料夾，是學習過程中提問與推導的檔案紀錄，方便日後回顧。
 
 ## 專案結構
 
